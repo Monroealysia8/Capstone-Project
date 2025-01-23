@@ -1,0 +1,70 @@
+
+
+#alertButton{
+    float: right;
+}
+
+#blueName{color:#3193aee8;
+}
+
+.icon{
+    height: 200px;
+width: 200px;
+}
+
+.giant-text{
+    font-size: 90px;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.button-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#startButton{
+    margin-top: 250px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    font-weight: 700; 
+    font-size: 16px
+}
+
+.accordian-container{
+    padding: 20px;
+}
+    
+ #quote{
+    margin-top: 150px;
+ }   
+
+ body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background-color: rgba(97, 93, 93, 0.5); 
+  z-index: -1; 
+}
+
+.image-container{
+    display: flex;
+  justify-content: center; 
+  gap: 10px; 
+}
+
+#contactFooter{
+    position: fixed;
+    bottom: 0;
+    margin-left: 10px;
+}

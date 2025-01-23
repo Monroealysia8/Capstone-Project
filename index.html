@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project|Week 8</title>
+    <!--linked bootstrap-->
+    <link rel="stylesheet" href="bootstrap.min (7).css" />
+    <!--linked stylesheet-->
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <!--start of navigation bar-->
+      <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" aria-current="page" href="index.html"
+            ><span id="blueName">Home</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="accomplishments.html"
+                  ><span id="blueName">Student Accomplishments</span></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html"
+                  ><span id="blueName">Contact me</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!---start of first grid system for image and h1-->
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col-md mt-5 pt-5">
+            <h1 class="giant-text">
+              Hello, I am <span id="blueName">Alysia</span>
+            </h1>
+            <h4>Front End Web Developer</h4>
+            <!--link for 1st button-->
+            <div class="button-container margin-top: -60px">
+              <div
+                id="startButton"
+                class="btn-success"
+                style="color: black; cursor: pointer; margin-top: -60px"
+              >
+                Hire me!
+              </div>
+              <div id="output"></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="IMG_1224.jpg"
+              alt="womans portrait"
+              class="img-fluid"
+              style="
+                box-shadow: 0px 0px 80px 30px rgba(246, 244, 244, 0.5);
+                border-radius: 5px;
+                width: 300px;
+                height: auto;
+                margin-top: 110px;
+              "
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- start of accordian-->
+      <div style="margin: 150px; padding-top: 50px">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                HTML Lab 1
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                Objective: Create a simple website for your favorite movie using
+                HTML. Your website should include an index file, a cast file,
+                and a contact file. Use tables, lists, and anchor tags for
+                navigation.
+                <p>
+                  Here is a
+                  <a href="https://github.com/Monroealysia8/week-1-lab">
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                HTML Lab 2
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+
+                The objective of this project is to create a local news website
+                consisting of three pages: index.html, sports.html, and
+                economy.html. The index.html page should display the top 3 most
+                important news items, while the sports.html page will feature
+                sports-related content along with 3 relevant images. The
+                economy.html page should present a table of stock information,
+                including 5 entries with stock names and prices. Each page
+                should have a consistent layout with navigation, main content,
+                and footer sections. The navigation links should allow users to
+                switch between pages seamlessly. Furthermore, the website should
+                be styled with a uniform font family and appropriate text
+                styling to ensure readability and enhance the presentation of
+                the content.
+                <p>
+                  Here is a
+                  <a href="https://monroealysia8.github.io/Local-News/">
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Bootstrap Lab 1
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                <p>
+                  The goal of this project is to create a responsive and
+                  visually appealing portfolio website using Bootstrap 5.
+                </p>
+                <p>
+                  The website should include a navigation bar, a grid layout for
+                  different sections (Home, About, Projects, and Contact), a
+                  carousel in the Home section, and project showcase cards in
+                  the Projects section.
+                </p>
+                <p>
+                  The layout should be fully responsive, adjusting seamlessly to
+                  different screen sizes, and styled using Bootstrap’s utility
+                  classes.
+                </p>
+                <p>
+                  This project will demonstrate the ability to implement key
+                  Bootstrap components and create a functional and attractive
+                  portfolio.
+                </p>
+                <p>
+                  Here is a
+                  <a href="https://monroealysia8.github.io/bootstrap-lab-1/">
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour"
+              >
+                Problem Solving Lab 1
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFour"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:.</strong>
+                <p>
+                  Develop the flowchart and pseudocode for the following
+                  exercises
+                </p>
+                <p>
+                  1. Calculating the Perimeter of a Rectangle: Create a
+                  flowchart and pseudocode to calculate the perimeter of a
+                  rectangle given its length and width.
+                </p>
+                <p>
+                  2. Calculating the Area of a Rectangle: Create a flowchart and
+                  pseudocode to calculate the area of a rectangle given its
+                  length and width.
+                </p>
+                <p>
+                  3. Largest of 2 Numbers: Create a flowchart and pseudocode to
+                  find the largest of 2 numbers provided by the user.
+                </p>
+
+                <p>
+                  Here is a<a
+                    href="https://monroealysia8.github.io/Problem-Solving-Lab-1/"
+                  >
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSix"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseSix"
+              >
+                Problem Solving Lab 2
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseSix"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                <p>
+                  Develop the flowchart and pseudocode for the following
+                  exercises
+                </p>
+                <p>
+                  1. Determining if a Student Passed or Failed: Create a
+                  flowchart and pseudocode to determine if a student passed or
+                  failed based on their score. The passing score is 50 or above.
+                </p>
+                <p>2. Deciding What to Wear Based on Temperature:</p>
+                <ul>
+                  <li>
+                    Create a flowchart and pseudocode to decide what to wear
+                    based on the temperature (Celsius).
+                  </li>
+
+                  <li>
+                    If the temperature is above 30 degrees Celsius, recommend
+                    Wear light clothing.
+                  </li>
+                  <li>
+                    If the temperature is between 20 and 30 degrees Celsius,
+                    recommend Wear moderate clothing.
+                  </li>
+                  <li>Any other temperature, recommend Wear warm clothing.</li>
+                </ul>
+                <p>
+                  3. Determining if a Person Can Enter a Movie Based on Age:
+                </p>
+
+                <ul>
+                  <li>
+                    Create a flowchart and pseudocode to check if a person can
+                    enter a movie based on their age.
+                  </li>
+                  <li>
+                    The movie has an age restriction of 18 years or older.
+                  </li>
+                </ul>
+                <p>
+                  Here is a<a
+                    href="https://monroealysia8.github.io/Problem-Solving-Lab-2/"
+                  >
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSeven"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseSeven"
+              >
+                Javascript Week 5: Lab 1-level 1
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseSeven"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                <p>Temperature Converter:</p>
+                <ul>
+                  <li>
+                    Create a program that asks the user to input a temperature
+                    in Celsius.
+                  </li>
+                  <li>Convert the temperature to Fahrenheit.</li>
+                  <li>Display a message with the conversion.</li>
+                  <li>(input°C * 9/5) + 32</li>
+                </ul>
+                <p>Age Verification:</p>
+                <ul>
+                  <li>
+                    Write a program that asks the user to input their age.
+                  </li>
+                  <li>
+                    Determine if the user is a minor, an adult, or a senior
+                    citizen.
+                  </li>
+                  <li>Display the previous determination.</li>
+                </ul>
+                <p>Simple Calculator:</p>
+                <ul>
+                  <li>
+                    Write a program that asks the user to input two numbers.
+                  </li>
+                  <li>
+                    The user will choose an operation (addition, subtraction,
+                    multiplication, division).
+                  </li>
+                  <li>Perform the chosen operation on the two numbers.</li>
+                  <li>Display the result of the operation.</li>
+                </ul>
+                <p>
+                  Here is a<a
+                    href="https://monroealysia8.github.io/lab-1-javascript/"
+                  >
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                JavaScript week 5: Lab 2-Level 1
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                <p>
+                  1. Smallest of Three Numbers- Problem Statement: Create a
+                  function that takes three numbers as input and determines the
+                  smallest number.
+                </p>
+                <ul>
+                  <li>Take three numbers from 3 inputs.</li>
+                  <li>Compare the numbers to find the smallest.</li>
+                  <li>Print the smallest number.</li>
+                </ul>
+                <p>
+                  Here is a<a
+                    href="https://monroealysia8.github.io/Problem-Solving-Lab-2/"
+                  >
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                JavaScript week 6: Lab 1-Level 2
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                <p>Array Manipulation and HTML Rendering using Bootstrap</p>
+                <p>Task 1: Number Array Manipulation</p>
+                <p>Given a numerical array: Let = [100, 456, 98, 45, 43, 73]</p>
+
+                <ul>
+                  <li>
+                    Render all elements of the numbers array as a list on an
+                    HTML page.
+                  </li>
+                  <li>
+                    Render only the even numbers from the numbers array as a
+                    list on an HTML page.
+                  </li>
+                </ul>
+                <p>
+                  Here is a<a href="https://monroealysia8.github.io/Lab-1/">
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                JavaScript Week 6: Lab 2-Level 2
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                <p>
+                  Working with Arrays of Objects and Rendering Information on
+                  HTML
+                </p>
+                <p>Task 1: Music Bands</p>
+                <p>
+                  Create an array named bands that contains objects representing
+                  different music bands.
+                </p>
+                <p>Each band object should have the following properties:</p>
+
+                <ul>
+                  <li>name (string): The name of the band.</li>
+                  <li>genre (string): The genre of music the band plays.</li>
+                  <li>formedYear (number): The year the band was formed.</li>
+                  <li>
+                    active (boolean): Whether the band is currently active.
+                  </li>
+                </ul>
+                <p>Render the Information on HTML:</p>
+                <ul>
+                  <li>
+                    Write a function that takes the bands array and renders the
+                    information on an HTML page.
+                  </li>
+                  <li>
+                    Display each band's name, genre, and the year they were
+                    formed.
+                  </li>
+                  <li>Indicate whether the band is currently active.</li>
+                </ul>
+                <p>Task 2: Restaurants</p>
+                <p>
+                  Create an array named restaurants that contains objects
+                  representing different restaurants.
+                </p>
+                <p>
+                  Each restaurant object should have the following properties:
+                </p>
+                <ul>
+                  <li>name (string): The name of the restaurant.</li>
+                  <li>
+                    cuisine (string): The type of cuisine the restaurant serves.
+                  </li>
+                  <li>location (string): The location of the restaurant.</li>
+                  <li>
+                    rating (number): The average rating of the restaurant (out
+                    of 5).
+                  </li>
+                </ul>
+                <p>Render the Information on HTML:</p>
+                <ul>
+                  <li>
+                    Write a function that takes the restaurants array and
+                    renders the information on an HTML page.
+                  </li>
+                  <li>
+                    Display each restaurant's name, cuisine, location, and
+                    rating.
+                  </li>
+                </ul>
+                <p>Task 3: Supermarket Products</p>
+                <p>
+                  Create an array named products that contains objects
+                  representing basic supermarket products.
+                </p>
+                <p>Each product object should have the following properties:</p>
+                <ul>
+                  <li>name (string): The name of the product.</li>
+                  <li>
+                    category (string): The category the product belongs to
+                    (e.g., dairy, produce, etc.).
+                  </li>
+                  <li>price (number): The price of the product.</li>
+                  <li>
+                    inStock (boolean): Whether the product is currently in
+                    stock.
+                  </li>
+                </ul>
+                <p>Render the Information on HTML:</p>
+                <ul>
+                  <li>
+                    Write a function that takes the products array and renders
+                    the information on an HTML page.
+                  </li>
+                  <li>
+                    Display each product's name, category, price, and stock
+                    status.
+                  </li>
+                </ul>
+                <p>Submission</p>
+                <ul>
+                  <li>
+                    Create an HTML file for each task (bands.html,
+                    restaurants.html, products.html).
+                  </li>
+                  <li>Use a navigation bar</li>
+                  <li>Use Bootstrap 5</li>
+                  <li>
+                    Ensure your HTML and JavaScript files are well-organized and
+                    commented.
+                  </li>
+                </ul>
+                <p>
+                  Here is a<a href="https://monroealysia8.github.io/Lab-2/">
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                Capstone Project
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                <p>Style part of your content with Bootstrap classes</p>
+
+                <ul>
+                  <li>
+                    Include responsive design on both pages Include Bootstrap
+                    Grid on at least one page
+                  </li>
+                  <li>
+                    Include at least one of the following: bootstrap nav, card,
+                    or list group
+                  </li>
+                  <li>Include at least one bootstrap button</li>
+                  <li>
+                    Include at least one element with bootstrap margin or
+                    padding
+                  </li>
+                </ul>
+                <p>Style part of your content with regular CSS</p>
+                <ul>
+                  <li>Use at least one id selector</li>
+                  <li>Use at least one class selector</li>
+                </ul>
+                <p>HTML:</p>
+
+                <ul>
+                  <li>Include a navigation bar to switch between pages</li>
+                  <li>Includes at least 2 pages</li>
+                  <li>Include at least one list (unordered or ordered)</li>
+                  <li>Include at least 2 buttons</li>
+                  <li>
+                    The navbar should be on each page, and allow navigation to
+                    every page
+                  </li>
+                </ul>
+                <p>JavaScript:</p>
+                <ul>
+                  <li>
+                    Each button in the HTML should have a click eventListener
+                  </li>
+                  <li>
+                    Use at least one loop (for, while) OR array method like
+                    forEach(), map() or reduce()
+                  </li>
+                </ul>
+                <p>Best practices:</p>
+
+                <ul>
+                  <li>Correct HTML formatting</li>
+                  <li>
+                    Content inside of the
+                    <body></body>
+                    tag
+                  </li>
+                  <li>Correct use of open / closing tags</li>
+                  <li>
+                    Correct JavaScript formatting - no unused variables /
+                    functions
+                  </li>
+                  <li>Correct CSS formatting - no unused ids, classes</li>
+                </ul>
+
+                <p>Version control</p>
+                <ul>
+                  <li>The code should be stored in a GitHub repository</li>
+                </ul>
+                <p>Deployment</p>
+                <ul>
+                  <li>The site should be deployed on GitHub Pages</li>
+                </ul>
+                <p>
+                  Here is a<a href="https://monroealysia8.github.io/Lab-2/">
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                JavaScript Week 7: Lab 1-Level 2
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                <p>
+                  Starter data: let daysWeather = [ {"day": "Sunday",
+                  "temperature": 60, "rainfall": 0.2}, {"day": "Monday",
+                  "temperature": 55, "rainfall": 0}, {"day": "Tuesday",
+                  "temperature": 63, "rainfall": 0.3}, {"day": "Wednesday",
+                  "temperature": 57, "rainfall": 0.25}, ]
+                </p>
+
+                <ul>
+                  <li>
+                    Create a table with the column names "day", "temperature",
+                    and "rain". Then, use a for loop to create a row on the
+                    table for each object in the "daysWeather" array.
+                  </li>
+                  <li>
+                    Add a button and a paragraph below the table. The button
+                    should have the text "avgTemp". When the button is clicked,
+                    calculate the average temperature for the displayed days.
+                    Then display the average in the paragraph tag right below
+                    the button.
+                  </li>
+                  <li>
+                    Add another button and a paragraph tag below the table. The
+                    button should have the text "maxRain". When the button is
+                    clicked, you should find which displayed day had the highest
+                    rain.
+                  </li>
+                </ul>
+                <p>
+                  Here is a<a
+                    href="https://github.com/Monroealysia8/lab-1-javascript"
+                  >
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                JavaScript Week 7: Lab 2-Level 2
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <strong>Objective:</strong>
+                <p>Building a Simple Amazon-like Shopping Cart</p>
+                <p>
+                  let products = [{ id: 1, name: 'Echo Dot', price: 29.99,
+                  quantity: 1 }, { id: 2, name: 'Fire TV Stick', price: 39.99,
+                  quantity: 2 }, { id: 3, name: 'Kindle Paperwhite', price:
+                  119.99, quantity: 1 }, { id: 4, name: 'Echo Show 5', price:
+                  89.99, quantity: 0 }, { id: 5, name: 'Fire Tablet', price:
+                  49.99, quantity: 3 }, { id: 6, name: 'Ring Video Doorbell',
+                  price: 99.99, quantity: 1 }];
+                </p>
+                <ul>
+                  <p>Calculate Total Invoice Amount:</p>
+                  <li>
+                    Create a JavaScript function to calculate the total invoice
+                    amount based on the provided product array.
+                  </li>
+                  <li>
+                    Use a for loop to iterate through the products, multiplying
+                    price by quantity for each item and adding it to a total.
+                  </li>
+                  <li>output the calculated total.</li>
+                </ul>
+                <p>Render Cart Items:</p>
+                <ul>
+                  <li>
+                    Create a JavaScript function to render the cart items as
+                    rows in the Bootstrap table.
+                  </li>
+                  <li>
+                    Use a for loop to iterate through the products, creating a
+                    table row for each item and populating the cells with
+                    product information.
+                  </li>
+                  <li>
+                    Attach an event listener to the "Show Cart" button to call
+                    the render function.
+                  </li>
+                </ul>
+                <p>
+                  Here is a<a
+                    href="https://github.com/Monroealysia8/lab-2-javascript"
+                  >
+                    link</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--start of 2nd grid and 4 cards-->
+      <div class="d-flex gap-5 justify-content-center m-5">
+        <div id="section" class="row">
+          <div class="col">
+            <div
+              class="card d-flex align-items-center text-center"
+              style="width: 18rem"
+            >
+              <img
+                src="https://mkornyev.github.io/my_images/html5.png"
+                class="icon"
+                alt="HTML icon"
+              />
+              <div class="card-body d-flex flex-column align-items-center">
+                <div class="card-button-container">
+                  <p href="#section" class="btn btn-success">Learn more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card d-flex align-items-center text-center"
+              style="width: 18rem"
+            >
+              <img
+                src="https://raw.githubusercontent.com/kadir014/kadir014.github.io/master/assets/csslogo.png"
+                class="icon"
+                alt="CSS icon"
+              />
+              <div class="card-body">
+                <p href="#section" class="btn btn-success">More Info</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card d-flex align-items-center text-center"
+              style="width: 18rem"
+            >
+              <img
+                src="https://th.bing.com/th/id/R.76984d489016bb78c8c347e661bb8e94?rik=v6h54jhMOjGWxg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f62a76492bd73a4af5c5d4fb9.png&ehk=CCD7CF%2fzwR7i%2bBDVkut8Jbuzx%2bibavojdYkrIJG2PIc%3d&risl=&pid=ImgRaw&r=0"
+                class="icon"
+                alt="bootstrap icon"
+              />
+              <div class="card-body">
+                <p href="#section" class="btn btn-success">Find Out More</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card d-flex align-items-center text-center"
+              style="width: 18rem"
+            >
+              <img
+                src="https://th.bing.com/th/id/R.ed93ddf18043d20d58c9889c2f03e2a7?rik=4Ix4Ian5%2fgjYpQ&riu=http%3a%2f%2fkenstacktechnologies.com%2fassets%2fimg%2flanguage%2fjs.png&ehk=8ucOOHzOyyv%2fqt5u%2b5R2NNXAqWZXU5lgQmAr%2bdF8zZ0%3d&risl=&pid=ImgRaw&r=0"
+                class="icon"
+                alt="javascript icon"
+              />
+              <div class="card-body">
+                <p href="#section" id="learnMoreButton" class="btn btn-success">
+                  Know More
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--start of quote-->
+      <div id="quote">
+        <figure class="text-center mt-5">
+          <blockquote class="blockquote">
+            <p>"The best way to predict the future is to invent it."</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Alan Kay<cite title="Source Title"></cite>
+          </figcaption>
+        </figure>
+      </div>
+    </main>
+    <footer class="m-3">
+      <p>Copyright <span id="year">2025</span> Alysia Monroe</p>
+    </footer>
+    <!--linked bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!---linked java script-->
+    <script src="script.js"></script>
+  </body>
+</html>
